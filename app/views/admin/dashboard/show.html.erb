@@ -1,0 +1,9 @@
+<h1>Admin Info</h1>
+<div class="card" style="max-width: 50%;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><p>Total number of products in database is <%= @products.size %></p><%= link_to 'Go to Products list', admin_products_path,class: "btn btn-info" %></li>
+    <li class="list-group-item"><p>Total number of categories in database is <%= @categories.size %></p><%= link_to 'Go to Categories page', [:admin, :categories], class: "btn btn-info" %></li>    
+  </ul>
+</div>
+
+
