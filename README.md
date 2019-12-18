@@ -10,13 +10,13 @@ A mini e-commerce application built with Rails 4.2 for purposes of learning Rail
 
 !["Screenshot of item details"](https://github.com/hanuz06/jungle-2-rails/blob/master/public/readme-pics/Item-details-page.png?raw=true)
 
-## Screenshot of order summary
-
-!["Screenshot of order summary"](https://github.com/hanuz06/jungle-2-rails/blob/master/public/readme-pics/order-summary.png?raw=true)
-
 ## Screenshot of ordering products
 
 !["Screenshot of front page"](https://github.com/hanuz06/jungle-2-rails/blob/master/public/readme-pics/ordering-page.png?raw=true)
+
+## Screenshot of order summary
+
+!["Screenshot of order summary"](https://github.com/hanuz06/jungle-2-rails/blob/master/public/readme-pics/order-summary.png?raw=true)
 
 ## Screenshot of admin dashboard
 Admin access is protected
