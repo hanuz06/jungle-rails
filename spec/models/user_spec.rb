@@ -54,7 +54,7 @@ RSpec.describe User, type: :model do
     it "is successful and user found with correct email and password" do
      @user = User.create(first_name: "Bob" , last_name:"Black", email: 'kim@ya.ru', password: "123456789", password_confirmation: '123456789') 
       
-      userExists = @user.authenticate_with_credentials("kim@ya.ru", @user.password)            
+      userExists = User.authenticate_with_credentials(@user.email, @user.password)            
       
       expect(userExists).to be_truthy
     end
@@ -66,7 +66,7 @@ RSpec.describe User, type: :model do
     it "is successful with wrong character case in email address" do
      @user = User.create(first_name: "Bob" , last_name:"Black", email: 'kim@ya.ru', password: "123456789", password_confirmation: '123456789') 
       
-      userExists = @user.authenticate_with_credentials("kIM@ya.ru", @user.password)            
+      userExists = User.authenticate_with_credentials("kIM@ya.ru", @user.password)            
       
       expect(userExists).to be_truthy
     end
@@ -74,7 +74,7 @@ RSpec.describe User, type: :model do
     it "is successful with white spaces in email address" do
       @user = User.create(first_name: "Bob" , last_name:"Black", email: 'kim@ya.ru', password: "123456789", password_confirmation: '123456789') 
        
-       userExists = @user.authenticate_with_credentials(" kim@ya.ru ", @user.password)            
+       userExists = User.authenticate_with_credentials(" kim@ya.ru ", @user.password)            
        
        expect(userExists).to be_truthy
      end
