@@ -1,4 +1,9 @@
 <section class="cart-show">
+<% if alert %>
+<div class='alert alert-success' role="alert">
+  <%= flash[:alert]%>
+</div> 
+<% end %>
 
   <header class="page-header">
     <h1>Order summary</h1>

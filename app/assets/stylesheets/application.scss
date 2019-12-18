@@ -24,3 +24,12 @@ form.button_to {
     text-decoration: none;
   }
 }
+
+.container_for_login_wrapper{
+  display: flex;
+  justify-content: center;
+  
+  .login_signup_wrapper {
+    display: inline-block;  
+  }
+}

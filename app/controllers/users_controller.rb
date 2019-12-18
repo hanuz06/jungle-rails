@@ -8,7 +8,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
-      redirect_to '/signup'
+      redirect_to '/signup', alert: "Either email exists or password is not valid"
     end
   end
   private
