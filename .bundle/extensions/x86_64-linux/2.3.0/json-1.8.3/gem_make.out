@@ -1,0 +1,13 @@
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/json-1.8.3/ext/json
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-5776-rtxwd0.rb extconf.rb
+creating Makefile
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/json-1.8.3/ext/json
+make "DESTDIR=" clean
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/json-1.8.3/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/json-1.8.3/ext/json
+make "DESTDIR=" install

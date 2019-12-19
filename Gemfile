@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.3.5"
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -65,3 +65,6 @@ group :test do
   gem 'poltergeist'
   gem 'database_cleaner'
 end
+
+gem "rails_12factor", group: :production
+ruby "2.3.5"
