@@ -1,0 +1,21 @@
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-3615-jdpc8f.rb extconf.rb
+creating Makefile
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.83 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.81 s in the future
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" install
+make: Warning: File 'websocket_mask.so' has modification time 0.85 s in the future
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20191217-3615-40j5yw
+make: warning:  Clock skew detected.  Your build may be incomplete.

@@ -1,0 +1,19 @@
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/byebug-9.0.5/ext/byebug
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-5776-1079mus.rb extconf.rb
+creating Makefile
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling threads.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+linking shared-object byebug/byebug.so
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20191217-5776-1cbca7m/byebug

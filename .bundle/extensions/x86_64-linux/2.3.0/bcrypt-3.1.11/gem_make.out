@@ -1,0 +1,19 @@
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/bcrypt-3.1.11/ext/mri
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-5776-6vtcgx.rb extconf.rb
+creating Makefile
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" clean
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR="
+compiling crypt_gensalt.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling bcrypt_ext.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20191217-5776-uepwz

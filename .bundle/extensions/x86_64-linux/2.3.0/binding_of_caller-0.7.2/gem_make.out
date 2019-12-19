@@ -1,0 +1,16 @@
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-5776-ajtwub.rb extconf.rb
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

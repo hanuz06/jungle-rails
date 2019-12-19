@@ -1,0 +1,18 @@
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/unf_ext-0.0.7.2/ext/unf_ext
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-5776-or524e.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+linking shared-object unf_ext.so
+
+current directory: /vagrant/jungle-rails-backup2/.bundle/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -m 0755 unf_ext.so ./.gem.20191217-5776-16p4x72
