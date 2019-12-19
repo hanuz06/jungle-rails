@@ -2,6 +2,8 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of learning Rails.
 
+To see live version on Netlify please click 👉 [Scheduler](https://github.com/hanuz06/jungle-rails)
+
 ## Screenshot of front page
 
 !["Screenshot of front page"](https://github.com/hanuz06/jungle-2-rails/blob/master/public/readme-pics/front-page.png?raw=true)
