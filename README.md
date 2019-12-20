@@ -1,6 +1,7 @@
 # Jungle
 
 A mini e-commerce application built with Rails 4.2 for purposes of learning Rails.
+As a stretch, after making an order a customer gets email with order confirmation.
 
 To see live version on Netlify please click 👉 [Jungle-Rails](https://serene-anchorage-80884.herokuapp.com)
 
@@ -19,6 +20,10 @@ To see live version on Netlify please click 👉 [Jungle-Rails](https://serene-a
 ## Screenshot of order summary
 
 !["Screenshot of order summary"](https://github.com/hanuz06/jungle-2-rails/blob/master/public/readme-pics/order-summary.png?raw=true)
+
+## Screenshot of email with order confirmation
+
+!["Screenshot of email with order confirmation"](https://github.com/hanuz06/jungle-rails/blob/feature/order-receipt/public/readme-pics/order-confirmation.png?raw=true)
 
 ## Screenshot of admin dashboard
 Admin access is protected
@@ -47,4 +52,4 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe API
-# jungle-rails.
+
