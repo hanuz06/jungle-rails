@@ -21,6 +21,10 @@ To see live version on Netlify please click 👉 [Jungle-Rails](https://serene-a
 
 !["Screenshot of order summary"](https://github.com/hanuz06/jungle-2-rails/blob/master/public/readme-pics/order-summary.png?raw=true)
 
+## Screenshot of email with order confirmation
+
+!["Screenshot of email with order confirmation"](https://github.com/hanuz06/jungle-rails/blob/feature/order-receipt/public/readme-pics/order-confirmation.png?raw=true)
+
 ## Screenshot of admin dashboard
 Admin access is protected
 
