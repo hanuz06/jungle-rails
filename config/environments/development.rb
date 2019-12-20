@@ -39,5 +39,22 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
+  # config.action_mailer.delivery_method = :sendmail
+  # config.action_mailer.perform_deliveries = true
+  # config.action_mailer.raise_delivery_errors = true
+  # config.action_mailer.default_options = {from: 'lee1975uz@gmail.com'}
+
+  config.action_mailer.delivery_method = :smtp 
+
+  ActionMailer::Base.smtp_settings = {
+  :address        => 'smtp.gmail.com',
+  :domain         => 'mail.google.com',
+  :port           => 587,
+  :user_name      => ENV['GMAIL_USERNAME'],
+  :password       => ENV['GMAIL_PASSWORD'],
+  :authentication => :plain,
+  :enable_starttls_auto => true
+}
+  
   config.web_console.whitelisted_ips = ['10.0.2.0/24']
 end

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Order confirmation </h1>
+    <p>
+     Dear <%= @user.first_name %>! Thank you for your order. Your order ID:<%= @order.id %>.<br>
+    </p>
+    <h3>Order summary</h3>
+    <table>
+     <tbody>
+      <% @order.line_items.each do |item| %>
+            <%= render 'item', product: item.product, quantity: item[:quantity].to_i %>
+      <% end %>
+     </tbody>
+      <tfoot>
+        <tr>  
+          <td>
+            TOTAL:
+          </td>
+          <td>
+            <%= humanized_money_with_symbol @order.total_cents / 100.0 %>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    <p>Have a great day!</p>
+    <span>Our site: </span><%= @url %>
+  </body>
+</html>
