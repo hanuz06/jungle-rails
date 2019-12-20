@@ -3,7 +3,7 @@
 A mini e-commerce application built with Rails 4.2 for purposes of learning Rails.
 As a stretch, after making an order a customer receives email with order confirmation.
 
-To see live version on Netlify please click 👉 [Jungle-Rails](https://serene-anchorage-80884.herokuapp.com)
+To see live version on Heroku please click 👉 [Jungle-Rails](https://serene-anchorage-80884.herokuapp.com)
 
 ## Screenshot of front page
 
